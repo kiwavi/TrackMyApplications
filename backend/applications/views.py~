@@ -1,0 +1,36 @@
+from django.shortcuts import render
+from .models import JobApplications
+from rest_framework import viewsets
+from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
+from .serializers import JobSerializer
+import django_filters
+from django_filters.rest_framework import DjangoFilterBackend
+from django_filters import rest_framework as filters
+
+# Create your views here.
+
+class AppsFilter(django_filters.FilterSet):
+    company = django_filters.CharFilter(lookup_expr='icontains', field_name='company')
+    interviewed = django_filters.BooleanFilter(field_name='interviewed')
+
+    class Meta:
+        model = JobApplications
+        fields = ['company']
+
+
+class JobApplicationsView(viewsets.ModelViewSet):
+    # view for all job applications
+    serializer_class = JobSerializer
+    permission_classes = [AllowAny]
+    queryset = JobApplications.objects.all()
+
+class MyJobApplications(viewsets.ModelViewSet):
+    serializer_class = JobSerializer
+    permission_classes = [IsAuthenticated]
+    filter_backends = (filters.DjangoFilterBackend,)
+    filterset_class = AppsFilter
+    queryset = JobApplications.objects.all()
+    
+    def get_queryset(self):
+        queryset = JobApplications.objects.filter(user=self.request.user)
+        return queryset

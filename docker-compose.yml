@@ -1,0 +1,35 @@
+version: "3.2"
+services:
+  db:
+    image: postgres:14.3
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      
+  frontend:
+    restart: always
+    command : npm start
+    container_name: front
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - project
+
+  project:
+    restart: always
+    build:
+      context: ./backend
+    command : bash -c "python manage.py makemigrations && python manage.py migrate &&
+      python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      
+volumes:
+  postgres_data:
