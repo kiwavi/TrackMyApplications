@@ -93,7 +93,7 @@ export default function Home () {
                           </div>                          
                       )
                     :
-                    <p className="flex justify-center text-xl text-bold"> There are no links </p>
+                    <p className="flex justify-center text-sm text-bold mt-6"> There are no links </p>
                   }
                 </div>
           }

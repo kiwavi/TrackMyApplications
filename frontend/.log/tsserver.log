@@ -1,0 +1,128 @@
+Info 0    [15:25:39.078] Starting TS Server
+Info 1    [15:25:39.078] Version: 4.8.3
+Info 2    [15:25:39.078] Arguments: /usr/bin/node /home/munyiri/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --cancellationPipeName /tmp/844a4257a2a9e7bc8cbb70391b197a7b/tscancellation* --logFile /home/munyiri/newjobapps/frontend/.log/tsserver.log --logVerbosity info --locale en --validateDefaultNpmLocation --useNodeIpc
+Info 3    [15:25:39.078] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [15:25:39.078] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [15:25:39.091] Format host information updated
+Info 6    [15:25:39.143] Search path: /home/munyiri/newjobapps/frontend/src
+Info 7    [15:25:39.144] For info: /home/munyiri/newjobapps/frontend/src/Addapplication.js :: No config files found.
+Info 8    [15:25:39.149] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [15:25:43.315] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 4165.666574001312ms
+Info 10   [15:25:43.315] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [15:25:43.315] 	Files (38)
+
+Info 12   [15:25:43.315] -----------------------------------------------
+Info 13   [15:25:43.337] AutoImportProviderProject: found 2 root files in 2 dependencies in 17.288356989622116 ms
+Info 14   [15:25:43.338] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [15:25:43.407] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 68.61767300963402ms
+Info 16   [15:25:43.407] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [15:25:43.407] 	Files (7)
+
+Info 18   [15:25:43.407] -----------------------------------------------
+Info 19   [15:25:51.185] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/react-redux :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 20   [15:25:51.186] Elapsed:: 0.24422699213027954ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/react-redux :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 21   [15:25:51.186] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/react-redux :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 22   [15:25:51.186] Elapsed:: 0.025810986757278442ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/react-redux :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 23   [15:25:51.187] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/react-router :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 24   [15:25:51.187] Elapsed:: 0.04514998197555542ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/react-router :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 25   [15:25:51.187] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/react-router :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 26   [15:25:51.187] Elapsed:: 0.021199971437454224ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/react-router :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 27   [15:25:51.415] FileWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/package.json 2:: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 28   [15:25:51.416] Elapsed:: 1.0757660269737244ms FileWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/package.json 2:: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-redux/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 29   [15:25:51.417] FileWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 2:: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 30   [15:25:51.417] Elapsed:: 0.133542001247406ms FileWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 2:: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 31   [15:25:52.671] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 32   [15:25:52.710] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 38.23493900895119ms
+Info 33   [15:25:52.710] Project '/dev/null/inferredProject1*' (Inferred)
+Info 34   [15:25:52.710] 	Files (35)
+
+Info 35   [15:25:52.710] -----------------------------------------------
+Info 36   [15:25:52.710] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 37   [15:25:52.710] 	Files (7)
+
+Info 38   [15:25:52.710] -----------------------------------------------
+Info 39   [15:25:52.714] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 40   [15:25:52.714] Elapsed:: 0.03444299101829529ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 41   [15:25:52.714] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 42   [15:25:52.714] Elapsed:: 0.023485004901885986ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 43   [15:25:52.995] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-router-RORXiUSG/.react-router-RORXiUSG :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 44   [15:25:52.996] Elapsed:: 0.07603099942207336ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-router-RORXiUSG/.react-router-RORXiUSG :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 45   [15:25:52.996] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-router-RORXiUSG/.react-router-RORXiUSG :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 46   [15:25:52.996] Elapsed:: 0.023964017629623413ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-router-RORXiUSG/.react-router-RORXiUSG :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 47   [15:25:53.125] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-redux-9Ry0M6Ii/.react-redux-9Ry0M6Ii :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 48   [15:25:53.126] Elapsed:: 0.15489298105239868ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-redux-9Ry0M6Ii/.react-redux-9Ry0M6Ii :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 49   [15:25:53.126] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-redux-9Ry0M6Ii/.react-redux-9Ry0M6Ii :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 50   [15:25:53.127] Elapsed:: 0.21085599064826965ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/.react-redux-9Ry0M6Ii/.react-redux-9Ry0M6Ii :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 51   [15:25:53.419] FileWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 0:: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 52   [15:25:53.420] Elapsed:: 0.27814599871635437ms FileWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 0:: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules/@types/react-router/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 53   [15:25:53.491] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 54   [15:25:53.578] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 85.88996002078056ms
+Info 55   [15:25:53.578] Project '/dev/null/inferredProject1*' (Inferred)
+Info 56   [15:25:53.578] 	Files (40)
+
+Info 57   [15:25:53.578] -----------------------------------------------
+Info 58   [15:25:53.578] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 59   [15:25:53.578] 	Files (7)
+
+Info 60   [15:25:53.578] -----------------------------------------------
+Info 61   [15:25:54.133] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 62   [15:25:54.133] Elapsed:: 0.06880500912666321ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 63   [15:25:54.133] DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 64   [15:25:54.133] Elapsed:: 0.025175005197525024ms DirectoryWatcher:: Triggered with /home/munyiri/.cache/typescript/4.8/node_modules :: WatchInfo: /home/munyiri/.cache/typescript/4.8/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 65   [15:25:55.387] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 66   [15:25:55.468] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: true structureIsReused:: SafeModules Elapsed: 81.16599199175835ms
+Info 67   [15:25:55.468] Different program with same set of files
+Info 68   [15:25:57.637] Before ensureProjectForOpenFiles:
+Info 69   [15:25:57.637] After ensureProjectForOpenFiles:
+Info 70   [15:25:57.638] got projects updated in background, updating diagnostics for /home/munyiri/newjobapps/frontend/src/Addapplication.js
+Info 71   [20:44:41.921] Search path: /home/munyiri/newjobapps/frontend/src
+Info 72   [20:44:41.921] For info: /home/munyiri/newjobapps/frontend/src/Home.js :: No config files found.
+Info 73   [20:44:41.922] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 74   [20:44:41.952] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: true structureIsReused:: Not Elapsed: 30.330443024635315ms
+Info 75   [20:44:41.953] Project '/dev/null/inferredProject1*' (Inferred)
+Info 76   [20:44:41.953] 	Files (41)
+
+Info 77   [20:44:41.953] -----------------------------------------------
+Info 78   [20:44:41.953] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 79   [20:44:41.953] 	Files (7)
+
+Info 80   [20:44:41.953] -----------------------------------------------
+Info 81   [20:44:51.115] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 82   [20:44:51.170] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 55.008454978466034ms
+Info 83   [20:44:51.170] Different program with same set of files
+Info 84   [20:44:51.737] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 85   [20:44:51.744] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 7.536899000406265ms
+Info 86   [20:44:51.744] Different program with same set of files
+Info 87   [20:44:51.866] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 88   [20:44:51.881] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 14.922794997692108ms
+Info 89   [20:44:51.881] Different program with same set of files
+Info 90   [20:46:26.525] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 91   [20:46:26.578] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 52.48038998246193ms
+Info 92   [20:46:26.578] Different program with same set of files
+Info 93   [20:46:26.795] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 94   [20:46:26.810] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 14.419276982545853ms
+Info 95   [20:46:26.810] Different program with same set of files
+Info 96   [20:46:27.059] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 97   [20:46:27.071] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 11.949073016643524ms
+Info 98   [20:46:27.071] Different program with same set of files
+Info 99   [20:47:48.724] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 100  [20:47:48.744] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 19.823857009410858ms
+Info 101  [20:47:48.745] Different program with same set of files
+Info 102  [20:47:49.294] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 103  [20:47:49.314] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 20.171828001737595ms
+Info 104  [20:47:49.315] Different program with same set of files
+Info 105  [20:47:49.695] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 106  [20:47:49.700] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 5.067999988794327ms
+Info 107  [20:47:49.700] Different program with same set of files
+Info 108  [20:47:50.383] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 109  [20:47:50.410] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 26.497314006090164ms
+Info 110  [20:47:50.410] Different program with same set of files
+Info 111  [20:47:51.277] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 112  [20:47:51.286] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 8.887707024812698ms
+Info 113  [20:47:51.286] Different program with same set of files
+Info 114  [20:47:56.088] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 115  [20:47:56.123] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 35.38852900266647ms
+Info 116  [20:47:56.123] Different program with same set of files
+Info 117  [20:47:56.499] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 118  [20:47:56.525] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 26.29074200987816ms
+Info 119  [20:47:56.526] Different program with same set of files
