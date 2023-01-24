@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {tokenDel} from './setToken';
 import axios from "axios";
 import { useState } from "react";
+import {NotificationManager} from 'react-notifications';
 
 export default function Header () {
     const logged = useSelector((state) => state.isLogged);
@@ -19,6 +20,7 @@ export default function Header () {
             dispatch(logoutemail());
             dispatch(logoutusername());
             dispatch(logout());
+            NotificationManager.success('Logged out successfully','Logged out',2000);
         });
     }
     
