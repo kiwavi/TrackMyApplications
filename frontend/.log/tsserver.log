@@ -310,3 +310,138 @@ Info 292  [06:30:20.214] Different program with same set of files
 Info 293  [06:30:20.702] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
 Info 294  [06:30:20.709] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 6.4106850028038025ms
 Info 295  [06:30:20.709] Different program with same set of files
+Info 296  [06:32:30.737] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 297  [06:32:30.759] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 21.701211988925934ms
+Info 298  [06:32:30.759] Different program with same set of files
+Info 299  [06:32:31.008] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 300  [06:32:31.023] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 14.869073003530502ms
+Info 301  [06:32:31.023] Different program with same set of files
+Info 302  [06:32:35.787] DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#Addapplication.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 303  [06:32:35.792] Elapsed:: 1.0746209919452667ms DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#Addapplication.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 304  [06:32:37.890] DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#Addapplication.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 305  [06:32:37.890] Elapsed:: 0.07859399914741516ms DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#Addapplication.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 306  [06:32:42.344] Search path: /home/munyiri/newjobapps/frontend/src
+Info 307  [06:32:42.344] For info: /home/munyiri/newjobapps/frontend/src/JobDetail.js :: No config files found.
+Info 308  [06:32:42.349] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 309  [06:32:42.388] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 67 structureChanged: true structureIsReused:: Not Elapsed: 39.58551201224327ms
+Info 310  [06:32:42.388] Project '/dev/null/inferredProject1*' (Inferred)
+Info 311  [06:32:42.389] 	Files (46)
+
+Info 312  [06:32:42.389] -----------------------------------------------
+Info 313  [06:32:42.389] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 314  [06:32:42.389] 	Files (7)
+
+Info 315  [06:32:42.389] -----------------------------------------------
+Info 316  [06:32:56.854] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 317  [06:32:56.904] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 49.08341699838638ms
+Info 318  [06:32:56.904] Different program with same set of files
+Info 319  [06:32:57.800] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 320  [06:32:57.810] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 9.676192998886108ms
+Info 321  [06:32:57.810] Different program with same set of files
+Info 322  [06:32:59.652] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 323  [06:32:59.666] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 13.914889007806778ms
+Info 324  [06:32:59.666] Different program with same set of files
+Info 325  [06:33:04.353] DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#JobDetail.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 326  [06:33:04.353] Elapsed:: 0.11488300561904907ms DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#JobDetail.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 327  [06:33:04.727] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 328  [06:33:04.747] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 20.308627009391785ms
+Info 329  [06:33:04.747] Different program with same set of files
+Info 330  [06:33:05.384] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 331  [06:33:05.391] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 7.5989009737968445ms
+Info 332  [06:33:05.391] Different program with same set of files
+Info 333  [06:33:10.761] DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#JobDetail.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 334  [06:33:10.761] Elapsed:: 0.04940900206565857ms DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#JobDetail.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 335  [06:33:13.958] Search path: /home/munyiri/newjobapps/frontend/src
+Info 336  [06:33:13.958] For info: /home/munyiri/newjobapps/frontend/src/MyApps.js :: No config files found.
+Info 337  [06:33:13.958] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 338  [06:33:13.983] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 73 structureChanged: true structureIsReused:: Not Elapsed: 24.47868099808693ms
+Info 339  [06:33:13.983] Project '/dev/null/inferredProject1*' (Inferred)
+Info 340  [06:33:13.983] 	Files (47)
+
+Info 341  [06:33:13.983] -----------------------------------------------
+Info 342  [06:33:13.983] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 343  [06:33:13.983] 	Files (7)
+
+Info 344  [06:33:13.983] -----------------------------------------------
+Info 345  [06:33:21.989] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 346  [06:33:22.003] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 13.92315098643303ms
+Info 347  [06:33:22.003] Different program with same set of files
+Info 348  [06:33:22.169] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 349  [06:33:22.176] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 7.517925977706909ms
+Info 350  [06:33:22.176] Different program with same set of files
+Info 351  [06:33:29.391] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 352  [06:33:29.402] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 10.864145010709763ms
+Info 353  [06:33:29.402] Different program with same set of files
+Info 354  [06:33:29.546] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 355  [06:33:29.551] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 4.412128001451492ms
+Info 356  [06:33:29.551] Different program with same set of files
+Info 357  [06:33:46.379] Search path: /home/munyiri/newjobapps/frontend/src
+Info 358  [06:33:46.379] For info: /home/munyiri/newjobapps/frontend/src/Offers.js :: No config files found.
+Info 359  [06:33:46.379] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 360  [06:33:46.395] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 78 structureChanged: true structureIsReused:: Not Elapsed: 15.915942996740341ms
+Info 361  [06:33:46.396] Project '/dev/null/inferredProject1*' (Inferred)
+Info 362  [06:33:46.396] 	Files (48)
+
+Info 363  [06:33:46.396] -----------------------------------------------
+Info 364  [06:33:46.396] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 365  [06:33:46.396] 	Files (7)
+
+Info 366  [06:33:46.396] -----------------------------------------------
+Info 367  [06:33:54.083] Search path: /home/munyiri/newjobapps/frontend/src
+Info 368  [06:33:54.084] For info: /home/munyiri/newjobapps/frontend/src/RejectionsWithoutInterview.js :: No config files found.
+Info 369  [06:33:54.084] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 370  [06:33:54.107] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 79 structureChanged: true structureIsReused:: Not Elapsed: 23.257495015859604ms
+Info 371  [06:33:54.107] Project '/dev/null/inferredProject1*' (Inferred)
+Info 372  [06:33:54.107] 	Files (49)
+
+Info 373  [06:33:54.107] -----------------------------------------------
+Info 374  [06:33:54.107] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 375  [06:33:54.107] 	Files (7)
+
+Info 376  [06:33:54.107] -----------------------------------------------
+Info 377  [06:33:58.337] Search path: /home/munyiri/newjobapps/frontend/src
+Info 378  [06:33:58.337] For info: /home/munyiri/newjobapps/frontend/src/SearchResult.js :: No config files found.
+Info 379  [06:33:58.337] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 380  [06:33:58.350] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 80 structureChanged: true structureIsReused:: Not Elapsed: 13.14009901881218ms
+Info 381  [06:33:58.350] Project '/dev/null/inferredProject1*' (Inferred)
+Info 382  [06:33:58.350] 	Files (50)
+
+Info 383  [06:33:58.350] -----------------------------------------------
+Info 384  [06:33:58.351] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 385  [06:33:58.351] 	Files (7)
+
+Info 386  [06:33:58.351] -----------------------------------------------
+Info 387  [06:34:14.818] Search path: /home/munyiri/newjobapps/frontend/src
+Info 388  [06:34:14.819] For info: /home/munyiri/newjobapps/frontend/src/IndexPage.js :: No config files found.
+Info 389  [06:34:14.819] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 390  [06:34:14.828] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 81 structureChanged: true structureIsReused:: Not Elapsed: 8.914035022258759ms
+Info 391  [06:34:14.828] Project '/dev/null/inferredProject1*' (Inferred)
+Info 392  [06:34:14.828] 	Files (51)
+
+Info 393  [06:34:14.828] -----------------------------------------------
+Info 394  [06:34:14.828] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 395  [06:34:14.828] 	Files (7)
+
+Info 396  [06:34:14.828] -----------------------------------------------
+Info 397  [06:34:18.112] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 398  [06:34:18.130] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 18.192025005817413ms
+Info 399  [06:34:18.130] Different program with same set of files
+Info 400  [06:34:18.235] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 401  [06:34:18.239] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 4.113739013671875ms
+Info 402  [06:34:18.240] Different program with same set of files
+Info 403  [06:34:23.166] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 404  [06:34:23.192] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 25.835709989070892ms
+Info 405  [06:34:23.192] Different program with same set of files
+Info 406  [06:34:23.290] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 407  [06:34:23.294] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 3.5599719882011414ms
+Info 408  [06:34:23.294] Different program with same set of files
+Info 409  [06:34:23.586] DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#IndexPage.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 410  [06:34:23.586] Elapsed:: 0.022285014390945435ms DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#IndexPage.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 411  [06:34:24.608] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 412  [06:34:24.624] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 15.663011014461517ms
+Info 413  [06:34:24.624] Different program with same set of files
+Info 414  [06:34:25.990] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 415  [06:34:26.002] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 11.7827869951725ms
+Info 416  [06:34:26.002] Different program with same set of files
+Info 417  [06:34:27.502] DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#IndexPage.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 418  [06:34:27.502] Elapsed:: 0.10234999656677246ms DirectoryWatcher:: Triggered with /home/munyiri/newjobapps/frontend/src/#IndexPage.js# 0:: WatchInfo: /home/munyiri/newjobapps/frontend/src 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations

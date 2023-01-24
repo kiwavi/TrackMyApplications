@@ -8,10 +8,6 @@ export default function IndexPage () {
           <p class="flex justify-center text-sm lg:text-lg mt-6 mx-3 lg:mx-0 text-center"> Tracking the job search and interviewing process made easier and faster! </p>
           <p class="flex justify-center mx-4 text-bold text-2xl mt-4"> Features </p>
           
-          {/* <div class="bg-[url('./frontimage.jpg')] bg-no-repeat bg-cover bg-center w-auto mx-4 mt-5"> */}
-          {/*   {/\* <p> Everything You Need! </p> *\/} */}
-          {/* </div> */}
-
           <div className='w-auto mt-4'>
             <img src={FrontImage} class="object-scale-down max-w-full h-auto" alt="..."/>
           </div>
@@ -30,19 +26,8 @@ export default function IndexPage () {
             <ol className='flex justify-center w-auto ml-5'>
               <li class="mt-2 text-sm w-36 lg:text-lg lg:w-96 lg:text-start lg:ml-40"> Search for Applications </li>
               <li class="mt-2 text-sm w-36 lg:text-lg lg:w-96 lg:text-start"> Important links and resources </li>
-            </ol>
-            
-          </div>
-          
-          {/* <ol class="w-auto mt-4 text-center"> */}
-          {/*   <li class="mt-2 text-sm"> No Spreadsheets </li> */}
-          {/*   <li class="mt-2 text-sm"> Take Notes </li> */}
-          {/*   <li class="mt-2 text-sm"> Personalized, Dynamic Statistics </li> */}
-          {/*   <li class="mt-2 text-sm"> Search for Applications </li> */}
-          {/*   <li class="mt-2 text-sm"> Important links and resources </li> */}
-          {/*   <li class="mt-2 text-sm"> Limitless Applications </li> */}
-          {/* </ol> */}
-          
+            </ol>            
+          </div>                    
         </div>
     );
 }

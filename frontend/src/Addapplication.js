@@ -22,7 +22,6 @@ export default function AddApplication() {
         e.preventDefault();
         console.log(apptype);
         if (apptype === 'Select') {
-            // alert('Please select an appropriate \'from\' type');
             NotificationManager.error('Please select an appropriate \'from\' type','Missing Value',2000);
         }
 

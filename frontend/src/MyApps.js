@@ -52,7 +52,6 @@ export default function MyApps () {
                     <p className='flex justify-center text-bold text-xl lg:text-3xl mt-6'> My Applications  </p>                    
                                         
                     <div className='flex justify-center mt-5'>
-                      {/* <button className='bg-blue-300 w-32'> <p className='text-yellow-500'> Hello </p> </button> */}
                     </div>                                           
                     {                    
                         data.length ?
@@ -83,8 +82,6 @@ export default function MyApps () {
                             :
                             <div>
                               <p className='flex justify-center mt-6'> You have no job applications </p>
-                              {/* <AddIcon> */}
-                              {/* </AddIcon> */}
                             </div>
                     }
                     <div class="flex justify-center mt-4 ">
