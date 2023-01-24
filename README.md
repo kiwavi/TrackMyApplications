@@ -9,4 +9,14 @@
 #### - DjangoREST API    
 #### - TailwindCSS (responsive)    
 ### Setup (Docker)
-#### - 
+#### Git clone    
+#### Create a .env file inside the backend directory and add the following parameters:    
+* EMAIL_HOST = ' ' e.g. smpt.gmail.com    
+* EMAIL_PORT = ' ' e.g. 587    
+* EMAIL_HOST_USER = ' ' e.g. username@gmail.com    
+* EMAIL_HOST_PASSWORd = 'email_host_password' for example google app passwords      
+#### Build the image in the root directory and then run the container       
+```
+docker-compose build    
+docker-compose up    
+```
