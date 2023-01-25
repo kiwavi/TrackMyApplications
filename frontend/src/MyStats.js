@@ -668,6 +668,14 @@ export default function MyStats () {
 
 
               <div class="flex justify-center justify-around lg:mx-32">
+                <p className='mt-5 flex flex-col items-center justify-center w-28 text-center'> Rejections without Interviews </p>
+                <p className='bg-blue-200 w-24 mt-5 h-24 flex flex-col items-center justify-center'>
+                  <p className='text-yellow-600 text-2xl'> {rejected_without_interviews} </p>
+                </p>
+              </div>
+
+
+              <div class="flex justify-center justify-around lg:mx-32">
                 <p className='mt-5 flex flex-col items-center justify-center w-28 text-center'> Offers </p>
                 <p className='bg-blue-200 mt-5 h-24 w-24 flex flex-col items-center justify-center'>
                   <p className='text-yellow-600 text-2xl'> {offers ? <Link to="/offers"> {offers} </Link> : offers} </p>
