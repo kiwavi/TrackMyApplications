@@ -54,6 +54,7 @@ export default function MyStats () {
                 if (res.data.length) {
                     fetchApplicationsData();
                 }
+                setLoading(false);
             }
         ).catch(error => {
             if (error['message'] === 'Request failed with status code 401') {
@@ -1010,7 +1011,7 @@ export default function MyStats () {
               <p className='flex justify-center mt-6 mx-4 text-xl text-bold '>
                 You have no job applications. Therefore, there are no statistics.
               </p>
-                            
+              
             </div>
           }          
         </div>
