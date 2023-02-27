@@ -12,7 +12,7 @@ export default function IndexPage () {
             <img src={FrontImage} class="object-scale-down max-w-full h-auto" alt="..."/>
           </div>
 
-          <div className="mt-4">
+          <div className="mt-4 mb-12">
             <ol className='flex justify-center w-auto ml-5 lg:w-auto'>
               <li class="mt-2 text-sm lg:text-lg w-36 lg:w-96 lg:text-start lg:ml-40"> No Spreadsheets </li>
               <li class="mt-2 text-sm lg:text-lg w-36 lg:w-96 lg:text-start"> Take Notes </li>

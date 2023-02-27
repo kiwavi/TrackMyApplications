@@ -1,4 +1,5 @@
-import './App.css'; import React from 'react'; import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './App.css'; import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import IndexPage from './IndexPage';
 import Header from './Header';
 import axios from "axios";
@@ -24,7 +25,7 @@ import PasswordReset from './PasswordReset';
 import PasswordResetLink from './PasswordResetLink';
 import 'react-notifications/lib/notifications.css';
 import { NotificationContainer } from 'react-notifications';
-
+import ContactMe from './ContactUs';
 
 axios.defaults.baseURL = "http://127.0.0.1:8000";
 
@@ -55,6 +56,7 @@ export default function App() {
                   <Route path="/applications/:term" element={<RequireAuth> <SearchJob/> </RequireAuth> }> </Route>
                   <Route path="/password/reset/:code" element={<PasswordReset/>}> </Route>
                   <Route path="/password/link" element={<PasswordResetLink/>}> </Route>
+                  <Route path="/contact-us" element={<ContactMe/>}> </Route>
 	        </Routes>
             </div>
             {/* place footer here */}

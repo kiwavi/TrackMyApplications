@@ -85,3 +85,29 @@ export default function Signup() {
         </div>
     );    
 }
+
+
+
+
+
+// -----------------------------25708179593366981755931986018
+// Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+// Lj806mKBWJobiIXVMvmtfFlfXlRupw3loFQ6DI4BrDsmUpVSJhWV2XDoy6Dn2VjZ
+// -----------------------------25708179593366981755931986018
+// Content-Disposition: form-data; name="email"
+
+// soul@soul.com
+// -----------------------------25708179593366981755931986018
+// Content-Disposition: form-data; name="password"
+
+// Soulsister
+// -----------------------------25708179593366981755931986018
+// Content-Disposition: form-data; name="first_name"
+
+// Soul
+// -----------------------------25708179593366981755931986018
+// Content-Disposition: form-data; name="last_name"
+
+// Sister
+// -----------------------------25708179593366981755931986018--

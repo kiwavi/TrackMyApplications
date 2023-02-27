@@ -1,17 +1,27 @@
 from django.shortcuts import render
-from .models import JobApplications, Entries, ImportantLinks
+from .models import JobApplications, Entries, ImportantLinks, ContactEmails
 from rest_framework import viewsets
 from rest_framework.permissions import BasePermission, IsAuthenticated, SAFE_METHODS, IsAdminUser, AllowAny
-from .serializers import JobSerializer, EntriesSerializer, LinksSerializer
+from .serializers import JobSerializer, EntriesSerializer, LinksSerializer, ContactEmailsSerializer
 import django_filters
 from django_filters.rest_framework import DjangoFilterBackend
 from django_filters import rest_framework as filters
+from django.http import JsonResponse
+from django.middleware.csrf import get_token
+from django.shortcuts import get_object_or_404
 
 # Create your views here.
 
 class ReadOnly(BasePermission):
     def has_permission(self, request, view):
         return request.method in SAFE_METHODS
+
+class WriteOnly(BasePermission):    
+    def has_permission(self, request, view):
+        WRITE_METHODS = ["POST", ]        
+        return (
+            request.method in WRITE_METHODS
+        )
 
 class AppsFilter(django_filters.FilterSet):
     company = django_filters.CharFilter(lookup_expr='icontains', field_name='company')
@@ -64,3 +74,13 @@ class LinksView(viewsets.ModelViewSet):
     serializer_class = LinksSerializer
     permission_classes = [ReadOnly|IsAdminUser]
     queryset = ImportantLinks.objects.all()
+
+
+class ContactEmailsView(viewsets.ModelViewSet):
+    serializer_class = ContactEmailsSerializer
+    permission_classes = [WriteOnly|IsAdminUser]  # only admin has all permissions
+    queryset = ContactEmails.objects.all()
+
+
+def csrf(request):
+    return JsonResponse({'csrfToken': get_token(request)})

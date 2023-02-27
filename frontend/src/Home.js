@@ -82,7 +82,8 @@ export default function Home () {
                     </ListIcon>
                   </div>                 
                   <p className='flex justify-center mt-8 text-lg'> Important links </p>
-                  { links.length ? 
+                  <div className='mb-12'>
+                    { links.length ? 
                       links.map(result =>
                           <div className='mt-5'>
                             <ul className="mt-3 flex flex-col items-center justify-center">
@@ -92,9 +93,10 @@ export default function Home () {
                             </ul>
                           </div>                          
                       )
-                    :
-                    <p className="flex justify-center text-sm text-bold mt-6"> There are no links </p>
-                  }
+                      :
+                      <p className="flex justify-center text-xl text-bold"> There are no links </p>
+                    }
+                  </div>
                 </div>
           }
         </div>

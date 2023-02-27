@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import JobApplications, Entries, ImportantLinks
+from .models import JobApplications, Entries, ImportantLinks, ContactEmails
 
 class JobSerializer(serializers.ModelSerializer):
     class Meta:
@@ -48,4 +48,13 @@ class LinksSerializer(serializers.ModelSerializer):
             'id',
             'url',
             'description',
+        )
+
+class ContactEmailsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ContactEmails
+        fields = (
+            'id',
+            'email',
+            'message',
         )

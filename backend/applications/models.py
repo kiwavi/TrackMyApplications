@@ -2,6 +2,8 @@ from django.db import models
 from datetime import date
 from django.utils import timezone
 from django.db.models.signals import pre_save, post_save
+from decouple import config
+from django.core.mail import send_mail
 # Create your models here.
 
 application_choices = [
@@ -20,8 +22,8 @@ feedbacks = [
 ]
 
 class JobApplications(models.Model):
-    title = models.CharField(max_length=40)
-    company = models.CharField(max_length=40)
+    title = models.CharField(max_length=100)
+    company = models.CharField(max_length=150)
     job_description = models.TextField(null=True,blank=True)
     application_portal = models.CharField(max_length=50,choices=application_choices)
     # application_date = models.DateField(default=date.today())
@@ -31,7 +33,7 @@ class JobApplications(models.Model):
     spam = models.BooleanField(default=False,null=True,blank=True)
     user = models.CharField(max_length=50)
     notes = models.TextField(blank=True,null=True)
-    url = models.URLField(blank=True,null=True,max_length=300)
+    url = models.URLField(blank=True,null=True,max_length=400)
     entries = models.IntegerField(default=0)
     
 def final_feedback_update(sender,instance,**kwargs):
@@ -100,5 +102,20 @@ class ImportantLinks(models.Model):
     url = models.URLField(max_length=200)
     description = models.CharField(max_length=200)
 
+
+class ContactEmails(models.Model):
+    email = models.EmailField(blank=False)
+    message = models.TextField(blank=False)
+
+def notify_admin_email(sender,instance,**kwargs):
+    send_mail(
+        'You have received an email on trackmyapps from ' + instance.email,
+        instance.message,
+        config('EMAIL_HOST_USER'),
+        [config('EMAIL_HOST_USER')], # must be a list type
+        fail_silently = False
+    )
+
+post_save.connect(notify_admin_email, sender=ContactEmails)
 
 # So an application has a job title, company, fit description(bool), where I applied (multichoice), day applied (default today), rejected or accepted (bool), whether I got interviewed (through link), whether they are scamy (default No). User has option to set that option later.

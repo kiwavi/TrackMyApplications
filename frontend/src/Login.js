@@ -6,17 +6,20 @@ import { login,logusername,logemail } from './redux/logged';
 import {useDispatch} from 'react-redux';
 import {useSelector} from 'react-redux';
 import {NotificationManager} from 'react-notifications';
+import BeatLoader from "react-spinners/BeatLoader";
 
 export default function Login() {
     const [email, setEmail] = useState(null);
     const [password, setPassword] = useState(null);
+    const [loading, setLoading] = useState(true);
+    
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const logged = useSelector((state) => state.isLogged);
     
     function SubmitLogin (e) {
-        console.log('Hey');
         e.preventDefault();
+        
         if (logged) {
             NotificationManager.warning('You are logged in already','Logged',2000);
         }

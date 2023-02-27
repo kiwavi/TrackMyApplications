@@ -280,12 +280,23 @@ export default function JobDetail () {
           
           <div>
             <p className='flex justify-center mt-6 text-bold text-2xl mx-8 lg:mx-0'> {title} at {company} </p>
+              {/* { */}
+              {/*     timedifference < 60 ? <p className='flex justify-center mt-4'> Posted seconds ago </p> : timedifference > 60 && timedifference <= 3600 ? <p className='flex justify-center mt-4'> Posted {Math.trunc(timedifference / 60)} minutes ago </p> : timedifference > 3600 && timedifference < 86400 ? <p className='flex justify-center mt-4'> Posted {Math.trunc(timedifference / 3600)} hours ago </p> : timedifference > 86400 && timedifference < 604800 ? <p className='flex justify-center mt-4'> Posted {Math.trunc(timedifference / 86400)} days ago </p> : timedifference > 604800 && timedifference < 31536000 ? <p className='flex justify-center mt-4'> Posted {Math.trunc(timedifference / 604800)} week(s) ago  </p> : timedifference > 31536000 ? <p className='flex justify-center mt-4'> Posted {Math.trunc(timedifference / 31536000)} years ago </p> : <p> Nothing </p> */}
+              {/* } */}
+
+
               {
                   timedifference < 60 ? <p className='flex justify-center mt-4 text-green-600'> Seconds ago </p> : timedifference > 60 && timedifference <= 3600 ? <p className='flex justify-center mt-4 text-green-600'> {Math.trunc(timedifference / 60)} {Math.trunc(timedifference / 60) > 1 ? <p className='inline text-green-600'> &nbsp;minutes ago</p> : <p className='inline text-green-600'> &nbsp;minute ago </p>} </p> : timedifference > 3600 && timedifference < 86400 ? <p className='flex justify-center mt-4 text-green-600'> {Math.trunc(timedifference / 3600)} {Math.trunc(timedifference / 3600) > 1 ? <p className='text-green-600'> &nbsp;hours ago  </p> : <p className='inline text-green-600'> &nbsp;hour ago </p>}  </p> : timedifference > 86400 && timedifference < 604800 ? <p className='flex justify-center mt-4'> <p className='inline text-green-600'> {Math.trunc(timedifference / 86400)} </p> {Math.trunc(timedifference / 86400) > 1 ? <p className='inline text-green-600'> &nbsp;days ago </p> : <p className='inline text-green-600'> &nbsp;day ago </p>} </p> : timedifference > 604800 && timedifference < 31536000 ? <p className='flex justify-center mt-4'> <p className='text-green-600'> {Math.trunc(timedifference / 604800)} </p> {Math.trunc(timedifference / 604800) > 1 ? <p className='inline text-green-600'> &nbsp;weeks ago </p> : <p className='inline text-green-600'> &nbsp;week ago </p>} </p> : timedifference > 31536000 ? <p className='flex justify-center mt-4 text-green-600'> {Math.trunc(timedifference / 31536000)} {Math.trunc(timedifference / 31536000) > 1 ? <p className='inline text-green-600'> &nbsp;years ago </p> : <p className='inline text-green-600'> &nbsp;year ago </p>} </p> : <p> Nothing </p>
               }
             
             <div className='flex flex-col justify-center items-center'>
               <p class="mt-4 text-bold text-lg w-80 bg-gray-400 text-center lg:w-1/2"> Description </p>
+              {/* { */}
+              {/*     description ?  */}
+              {/*         <p className='mx-4 mt-4 lg:w-1/2'> {description} </p> */}
+              {/*     : */}
+              {/*     <p className='mx-4 mt-4'> None </p> */}
+              {/* } */}              
               
               {
                   description ? <div className="flex flex-col justify-center items-center">
